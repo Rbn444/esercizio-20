@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+}
+
+div{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+form > input{
+    background-color: rgb(200, 243, 243);
+    margin: 1vh;
+}
+table{
+    
+    flex: 1;
+    text-align: center;
+    height: 100%;
+}
+
+#add {
+    background-color: rgb(77, 147, 246);
+}
+
+
+th{
+    background-color: rgb(77, 147, 246);
+}
+tr:nth-child(2n+1){
+    background-color: rgb(77, 147, 246);
+}
